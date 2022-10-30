@@ -1,0 +1,173 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+a {
+    color: black;
+}
+
+.CarWash {
+    color: #FFE898;
+}
+
+.big-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.carwash-button {
+    background-color: #FFE898;
+    margin: 5% 3% 5% 0; 
+}
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    color: #FFE898;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-style: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.title-image {
+    width: 150%;
+    /* transform: rotate(25deg); */
+    /* border-radius: 25px; */
+    position: absolute;
+    top: 20%;
+    right: -15%;
+} 
+
+.feature-box {
+    text-align: center;
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    padding: 0 0 1rem 0;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.sub-features {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.desc-features {
+    color: #8f8f8f;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.cta-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: whitesmoke;
+}
+
+#features {
+    background-color: whitesmoke;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: whitesmoke;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: whitesmoke;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+@media (max-width: 1028px) {
+    
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 90%;
+    }
+}
+
